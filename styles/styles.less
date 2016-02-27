@@ -1,0 +1,273 @@
+/* Config */
+@bg_gray_color: #f3f7f6;
+@main_blue_color: #1c4489;
+@active_color: #045dd0;
+
+/* Base Styles */
+
+
+body {
+  background: @bg_gray_color;
+
+
+}
+
+/* Header */
+
+header {
+  background: @bg_gray_color;
+  padding: 30px 0;
+}
+
+/* Main Nav */
+
+.main-menu {
+  background: @main_blue_color;
+  text-transform: uppercase;
+
+  .nav-pills {
+padding: 0 8%;
+
+  .dropdown {
+
+    a:hover {
+      background: @main_blue_color;
+    }
+
+  .dropdown-toggle {
+  color: #fff;
+    border-radius: 0;
+    overflow: hidden;
+    border-bottom: 5px solid @main_blue_color;
+
+    &:hover {
+      border-bottom: 5px solid @active_color;
+    }
+
+
+
+  }
+
+  .dropdown-menu {
+    background:  #002d68;
+    border-radius: 0;
+    margin: 0;
+
+    li a {
+      background: #002d68;
+    color: #fff;
+    text-transform: uppercase;
+      border-bottom: 2px solid #002d68;
+
+
+      &:hover {
+        border-bottom: 2px solid @active_color;
+    }
+  }
+  }
+}
+.open>a:focus {
+  background: @main_blue_color;
+}
+
+    .open>li:hover {
+      background: @main_blue_color;
+    }
+
+    }
+}
+
+
+/* First Screen */
+
+.first-screen {
+  background: url("../img/main-bg.jpg") no-repeat;
+  width: 100%;
+  padding: 3% 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  h3 {
+    color: #fff;
+    margin: 0;
+  }
+
+  .learn-more {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 0;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-bottom: 9%;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    }
+  }
+
+}
+
+/* Our Achievements */
+
+.our-achievements {
+  background: @main_blue_color;
+  padding: 5% 0;
+  width: auto;
+
+
+  .achiev-container {
+    padding: 0;
+    margin: 0;
+  }
+
+
+    .achievement-number {
+      color: #fff;
+      font-size: 5rem;
+    }
+
+    .achievement {
+      color: #fff;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+
+
+}
+
+/* Benefits */
+
+.benefits {
+  padding: 3% 10%;
+  color: @main_blue_color;
+
+  h2 {
+    padding-bottom: 5%;
+    text-transform: uppercase;
+  }
+
+  .fa-check-circle {
+    font-size: 5rem;
+
+    .benefit-name {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-family: 'Lato', sans-serif;
+    }
+  }
+
+  p {
+    color: #000;
+    padding-top: 7%;
+  }
+
+}
+
+/* About Us */
+
+.about-us {
+  background: url("../img/about-us-bg.jpg") no-repeat;
+  padding: 1% 0;
+
+  a{
+    text-decoration: none;
+
+  .slider-arrows {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1% 2%;
+    border: 3px solid #fff;
+    margin: 0 2%;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    }
+
+  }
+  }
+
+  h2 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+  }
+
+  p {
+    color: #fff;
+    padding: 1% 0;
+    font-size: 2rem;
+  }
+}
+
+/* Request Callback */
+
+.request-callback {
+  background: @active_color;
+  padding: 4% 13%;
+
+  h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 4%;
+  }
+
+  .input-group {
+
+    .input-group-addon {
+      background: none;
+      border: none;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .form-control {
+      border: none;
+      border-radius: 0;
+      width: 140px;
+      height: 25px;
+    }
+  }
+
+  .request-submit {
+    background: #fff;
+    color: @active_color;
+    border: none;
+    border-radius: 0;
+    margin-left: 25%;
+    padding: 1% 5%;
+    text-transform: uppercase;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    }
+
+  }
+}
+
+/* Footer */
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 3% 0;
+
+ .footer-logo {
+   padding-bottom: 3%;
+ }
+}
+
+
+
+
